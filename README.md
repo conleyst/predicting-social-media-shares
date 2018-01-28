@@ -6,16 +6,16 @@ A logistic regression model with L2-regularization was fit using recursive featu
 
 A write-up of the final analysis can be read [here](https://github.com/conleyst/predicting-social-media-shares/blob/master/analysis.md).
 
-#### Required Packages
+#### Requirements
 
-The entire analysis is done in Python, using the following packages:
-- `pandas`
-- `numpy`
-- `sklearn`
+The entire analysis is done in `Python 3.6.3`, using the following packages:
+- `pandas, v0.20.3`
+- `numpy, v1.13.3`
+- `sklearn, v0.19.1`
 
 #### Running the Analysis
 
-The entire analysis can be run locally from within the `src` directory of the project.
+The entire analysis can be run locally, after cloning, from within the `src` directory of the project.
 
 Cleaning the data:
 
