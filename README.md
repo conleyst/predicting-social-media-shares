@@ -4,7 +4,7 @@ This project analyzes the data set found [here](http://archive.ics.uci.edu/ml/da
 
 A logistic regression model with L2-regularization was fit using recursive feature elimination in `sklearn`.
 
-A write-up of the final analysis can be read [here](https://github.com/conleyst/predicting-social-media-shares/blob/master/analysis.md).
+A write-up of the final analysis can be read [here](https://github.com/conleyst/predicting-social-media-shares/blob/master/results/analysis.md).
 
 #### Requirements
 
