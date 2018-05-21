@@ -25,7 +25,7 @@ Our analysis has two goals:
 
 First, the data was randomnly split into a training and test set. The test set contained 20% of the observations. I wanted to encourae sparsity in the actual weights for the features to better identify the features that are potentially more relevant to an article's popularity. With this in mind, the model I fit used L2-regularized logistic regression along with recursive feature elimination for the actual feature selection.
 
-To choose the penalty weight `C` used in the model, I used cross-validated and scored on accuracy. Powers of 10 were tested, ranging from 10^-5 to 10^5. In the end though, in turns out that accuracy varied very little between the tested values,
+To choose the penalty weight `C` used in the model, I used cross-validated and scored on accuracy. Powers of 10 were tested, ranging from 10^-5 to 10^5. In the end though, it turns out that accuracy varied very little between the tested values,
 
 ![](../imgs/cv_accuracy.png)
 
